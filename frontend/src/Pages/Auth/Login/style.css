@@ -1,0 +1,125 @@
+.login {
+  /* background-color: #fcd21d; */
+  /* background-color: var(--mainBg); */
+}
+
+.login > .loginCParent {
+  background-image: url(../../../assets/bg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 12rem 0;
+}
+
+/* .login > .loginCParent > .loginContainer {
+  height: 80vh;
+} */
+/* .login > .loginCParent > .loginContainer > .loginForm {
+  background-color: white;
+  padding: 2rem;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > h1 {
+  font-size: var(--h3);
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+  padding: 0 0 2rem 0;
+  border-bottom: 1px solid var(--mainBg2);
+  text-align: center;
+  color: var(--mainText);
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > h1 > img {
+  margin: 0 0 -0.2rem 0 !important;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > h3 {
+  color: var(--mainText);
+  margin: 0 0 0.5rem 0;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > input {
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid var(--mainBg2);
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > button {
+  background-color: var(--mainText2);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 0 1rem 0;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > button:hover {
+  background-color: var(--mainText);
+  transition: 0.2s all ease-in-out;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > p {
+  text-align: center;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > p > a {
+  text-decoration: underline;
+  color: var(--mainText);
+  font-weight: 600;
+} */
+
+.login > .loginCParent > .loginContainer > .loginForm > h1 {
+  font-size: var(--h3);
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+  padding: 0 0 2rem 0;
+  /* border-bottom: 1px solid var(--mainText2); */
+  text-align: center;
+  color: var(--mainText);
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > h3 {
+  color: var(--mainText);
+  margin: 0 0 0.5rem 0;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > input {
+  padding: 0.5rem;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid var(--mainText2);
+  width: 100%;
+  margin: 0 0 1rem 0;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > button {
+  background-color: var(--mainText);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 0 1rem 0;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > button:hover {
+  background-color: var(--mainText2);
+  transition: 0.2s all ease-in-out;
+}
+
+.login > .loginCParent > .loginContainer > .loginForm > form > p > a {
+  text-decoration: underline;
+  color: var(--mainText);
+  font-weight: 600;
+}

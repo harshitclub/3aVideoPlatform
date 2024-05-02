@@ -1,0 +1,60 @@
+.footer {
+  /* background-color: #fcd21d; */
+  /* background-color: var(--mainBg); */
+}
+
+.footer > .footerParent {
+  border-top: 1px solid var(--mainText2);
+  padding: 2rem 0;
+}
+
+.footer > .footerParent > .fContainer {
+  margin: 0 0 2rem 0;
+}
+
+.footer > .footerParent > .fContainer > .fLogo > img {
+  width: 55%;
+  height: auto;
+}
+
+.footer > .footerParent > .fContainer > .fMenu > ul {
+  list-style: none;
+}
+
+.footer > .footerParent > .fContainer > .fMenu > h2 {
+  font-size: var(--h3);
+  color: var(--mainText);
+  margin: 0 0 1rem 0;
+}
+
+.footer > .footerParent > .fContainer > .fMenu > ul > li {
+  margin: 0 0 0.5rem 0;
+}
+
+.footer > .footerParent > .fContainer > .fMenu > ul > li > a {
+  color: var(--mainText);
+  font-size: var(--p2);
+  font-weight: 500;
+}
+
+.footer > .footerParent > .fContainer > .fCopyright > p {
+  color: var(--mainText2);
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .footer > .footerParent > .fContainer {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer > .footerParent > .fContainer > .fMenu > ul {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .footer > .footerParent > .fContainer > .fCopyright {
+    width: 100% !important;
+    border: 1px solid;
+  }
+}
